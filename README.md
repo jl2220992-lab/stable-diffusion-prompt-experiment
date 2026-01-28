@@ -1,1 +1,2 @@
 # stable-diffusion-prompt-experiment
+这是一个验证提示词策略对于生成图片质量的实验。实验采用Python 3.9实现，主要依赖Diffusers、Transformers和PyTorch库。代码实现了自动化图像生成与评估流程：首先加载预训练的Stable Diffusion v1.5模型生成图像，然后使用CLIP模型计算生成图像与目标文本的相似度分数。
